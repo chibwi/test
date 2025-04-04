@@ -1,0 +1,33 @@
+{
+  "image_pairs": [
+    {
+      "user_img": "C:\\Users\\manye\\Desktop\\WoZExp\\static\\img1.jpg",
+      "reference_img": "C:\\Users\\manye\\Desktop\\WoZExp\\static\\ref1.jpg",
+      "aligned_img": "C:\\Users\\manye\\Desktop\\WoZExp\\static\\aligned1.jpg",
+      "llm_analysis": [
+        "Top text mismatch: '3 x 10 Tablets * Comprimés' vs '3 x 10 Comprimés'",
+        "Font style and size appear consistent.",
+        "Color scheme and bands are consistent.",
+        "Layout and formatting match the reference.",
+        "Conclusion: Likely counterfeit due to mismatch in top text."
+      ],
+      "confidence_profile": {
+        "Dosage Match": 79.2,
+        "Font Consistency": 7.9,
+        "Color Scheme Match": 7.9,
+        "Logo Placement": 0,
+        "Spelling Check": 0
+      },
+      "score": 95.0,
+      "chat_intro": "\ud83d\udd0d I found some issues with the uploaded package based on spelling, font, and logo alignment.\nThe overall confidence level is 40%. Feel free to ask any questions about the result.",
+      "chat_rules": {
+        "text": "The top line in your package reads '3 x 10 Tablets * Comprimés', which does not match the original '3 x 10 Comprimés'. This discrepancy is suspicious.",
+        "font": "The font style and size of key text elements appear consistent with the reference.",
+        "color": "The red and blue color bands are correctly positioned and consistent with the reference.",
+        "layout": "The layout and formatting of text blocks are correct and aligned with the reference.",
+        "score": "The 95% confidence score reflects the significant mismatch in product labeling — especially in dosage information.",
+        "genuine": "Due to the labeling inconsistency, this package cannot be confidently marked as genuine."
+      }
+    }
+  ]
+}
