@@ -151,7 +151,7 @@ import pandas as pd
 import io
 
 # Set API Key
-API_KEY = os.getenv("GPT_API_KEY")
+API_KEY = "sk-proj-Wc6HB2TY2F71Z6AZqZJdT3BlbkFJm4n4VkCiYc3rKDn61FUe"
 if not API_KEY:
     st.error("GPT_API_KEY environment variable is not set. Please set it to continue.")
     st.stop()
